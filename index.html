@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Miss Me?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="main-text">Do you miss me?</span></h1>
+        <h2 class="sub-text">Try clicking NO multiple times</h2>
+        <p class="message">Choose wisely! 😏</p>
+        <button class="btn yes-btn" onclick="showHeart()">YES</button>
+        <button class="btn no-btn" onclick="showFunnyMessage()">NO</button>
+    </div>
+    
+
+    <div class="heart-container" id="heartContainer">
+        <div class="floating-hearts">
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="heart"></div>
+        <p class="caption">Happy Valentine's Day <br> ❤️ Hui Yee! ❤️</p>
+        <p class="heartfelt-message" id="heartfeltMessage">You make my world brighter and I look forward to talking with you everyday. I am very grateful for you! 💖</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
